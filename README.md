@@ -23,8 +23,8 @@ A simple project demonstrating how to integrate a bKash payment gateway using La
 
 1. Clone the repository:
    
-   git clone https://github.com/yourusername/payment-gateway-project.git
-   cd payment-gateway-project
+   git clone https://github.com/iqbaldevbd/laravel-bkash-checkout
+   cd laravel-bkash-checkout
 2. Install dependencies:
     composer install
 3. Generate app key:
