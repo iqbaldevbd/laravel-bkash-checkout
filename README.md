@@ -17,26 +17,7 @@ A simple project demonstrating how to integrate a bKash payment gateway using La
 
 ## 📁 Project Structure
 
-project-root/
-├── routes/
-│ └── web.php # Laravel route definitions
-├── app/
-│ └── Http/
-│ └── Controllers/
-│ └── PaymentController.php # Main controller for payment handling
-│ └── OrderController.php # Main controller for order processing
-│ └── RefundController.php # Main controller for Refund
-├── resources/
-│ └── views/
-|    └── order/
-|       └── index.blade.php # for showing order details with transaction information
-|       └── show.blade.php # for showing pay with bKash button for specific order
-|    └── Transaction/
-|       └── index.blade.php # for showing Transaction information in deatils
-|       └── show.blade.php # for showing pay with bKash button for specific order
-│ └── payment.blade.php # Payment form UI
-├── .env # Payment credentials setup
-└── README.md # This file
+<pre><code> ``` project-root/ ├── routes/ │ └── web.php # Laravel route definitions ├── app/ │ └── Http/ │ └── Controllers/ │ └── PaymentController.php # Handles payment logic │ └── OrderController.php # Handles order processing │ └── RefundController.php # Handles refunds ├── resources/ │ └── views/ │ └── order/ │ └── index.blade.php # Displays order list with transactions │ └── show.blade.php # Shows bKash button for specific order │ └── transaction/ │ └── index.blade.php # Shows detailed transaction info │ └── show.blade.php # Shows bKash button for specific transaction │ └── payment.blade.php # Payment form UI ├── .env # Payment credentials └── README.md # Project documentation ``` </code></pre>
 
 ## ⚙️ Environment Setup
 
