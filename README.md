@@ -31,6 +31,8 @@ A simple project demonstrating how to integrate a bKash payment gateway using La
     php artisan key:generate
 4. Migrate all tables:
     php artisan migrate
+5. Run this command for making fake data generation:
+    php artisan db:seed --class=OrderTableSeeder
 5. Run the server:
     php artisan serve
 ## Testing the payment

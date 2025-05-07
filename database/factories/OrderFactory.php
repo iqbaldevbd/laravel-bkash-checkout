@@ -26,7 +26,7 @@ class OrderFactory extends Factory
         return [
             'product_name' => $products[rand(0,3)],
             'currency' => 'BDT',
-            'amount' => rand(1500,2000),
+            'amount' => rand(10,20),
             'invoice' => $invoice++,
             'status' => 'Pending',
         ];
